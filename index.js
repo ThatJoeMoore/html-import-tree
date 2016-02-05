@@ -95,7 +95,7 @@ module.exports = {
                     info.logged = true;
                 }
                 otherImports += ')';
-                //line += g.colors.dim(otherImports);
+                line += g.colors.dim(otherImports);
             }
 
             g.log(line);
