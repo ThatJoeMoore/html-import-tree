@@ -87,11 +87,9 @@ module.exports = {
                     var truncate = filtered.length > 2;
                     if (truncate) {
                         toJoin = filtered.slice(0, 2);
+                        toJoin.push('and ' + (filtered.length - 2) + ' others');
                     }
                     otherImports += toJoin.join(', ');
-                    if (truncate) {
-                        otherImports += ' and ' + (filtered.length - 2) + ' others';
-                    }
                     info.logged = true;
                 }
                 otherImports += ')';
