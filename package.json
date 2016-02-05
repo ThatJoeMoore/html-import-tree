@@ -1,0 +1,25 @@
+{
+  "name": "html-import-tree",
+  "version": "0.1.0",
+  "description": "Analyzes HTML imports and shows them as a pretty tree",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThatJoeMoore/html-import-tree.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ThatJoeMoore/html-import-tree/issues"
+  },
+  "homepage": "https://github.com/ThatJoeMoore/html-import-tree#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "gulp-util": "^3.0.7",
+    "hydrolysis": "^1.22.0",
+    "path": "^0.12.7"
+  }
+}
