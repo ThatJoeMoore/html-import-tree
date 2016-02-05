@@ -14,7 +14,6 @@ module.exports = {
             opts = input;
         }
 
-
         var elements = {};
 
         hydro.Analyzer.analyze(opts.entrypoint, {clean: true})
@@ -63,7 +62,7 @@ module.exports = {
                 name = g.colors.bgRed(fileName);
             }
             if (isPolymer) {
-                name = g.colors.dim('(polymer)');
+                name = g.colors.blue(fileName);
             }
 
             var tick = isLast ? '`' : '+';
